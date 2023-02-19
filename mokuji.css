@@ -1,0 +1,53 @@
+#wata ul, ol {
+  background: #fcfcfc;
+  padding: 0.5em 0.5em 0.5em 2em;
+  border: solid 3px gray;
+}
+
+#wata ul li, ol li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
+
+#main {
+  width: 150vh;
+  margin: 5% auto;
+  text-align: center;
+  line-height: 400%;
+}
+
+#head-link {
+  display: flex;
+}
+
+#head-link>li {
+  padding-right: 30px;
+}
+
+body {
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.foot {
+  text-align: center;
+  line-height: 300%;
+  padding: 10% auto;
+}
+
+@media screen and (max-width:480px){
+  td{
+
+    width:100%;
+  
+    display:block;
+  
+  }
+  #main {
+    max-width: 100%;
+  }
+  td {
+    border-left: none;
+    border-right: none;
+  }
+  }
+  
